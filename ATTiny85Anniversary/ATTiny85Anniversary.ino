@@ -13,8 +13,10 @@
 //
 //=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
 
-// Uncomment when setting the RTC date, time and alarm
-// DO NOT FORGET: >>> Set Jumper To Enable/Disable I2C <<<
+// Uncomment when *setting* the RTC date, time and alarm
+// DO NOT FORGET: >>> Set Jumper To *Connect* VDD to VBAT <<<
+// Comment when *not* setting the RTC
+// DO NOT FORGET: >>> Set Jumper To *Disconnect* VDD to VBAT <<<
 //#define SETTIME
 
 #include <avr/interrupt.h>
