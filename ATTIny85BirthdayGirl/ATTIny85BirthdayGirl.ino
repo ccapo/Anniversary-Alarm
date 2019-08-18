@@ -2,7 +2,7 @@
 //
 // ATTiny85 Birthday Girl Alarm
 //
-// Plays a melody to celebrate our daugther's birthday
+// Plays a melody to celebrate our daughter's birthday
 //
 // With power consumption and battery capacity, this
 // device should be able to run for more then 10 years.
