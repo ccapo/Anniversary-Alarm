@@ -134,12 +134,12 @@ void setup() {
   // Set Current Date and Time
   // NB: Allow for time to flash and move the IC (e.g. 2 - 3 minutes)
   byte yearValue = 19;
-  byte monthValue = 1;
+  byte monthValue = 9;
   byte dateValue = 20;
-  byte hourValue = 9;
+  byte hourValue = 11;
   byte minuteValue = 0;
   byte secondValue = 0;
-  byte periodValue = 0; // AM = 0, PM = 1
+  byte periodValue = 1; // AM = 0, PM = 1
 
   // Write to Time Register
   TinyWireM.beginTransmission(RTC_ADDRESS);
@@ -164,13 +164,13 @@ void setup() {
 
   // Set Alarm Date and Time
   byte monthEnabled = 1;
-  monthValue = 1; // August = 8
+  monthValue = 12; // August = 8
   byte dateEnabled = 1;
-  dateValue = 20;
+  dateValue = 10;
   byte hourEnabled = 1;
   hourValue = 9;
   byte minuteEnabled = 1;
-  minuteValue = 0;
+  minuteValue = 41;
   byte secondEnabled = 0;
   secondValue = 0;
   periodValue = 0; // AM = 0, PM = 1
